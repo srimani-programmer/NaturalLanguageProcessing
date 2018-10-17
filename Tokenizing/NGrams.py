@@ -8,7 +8,7 @@ data_wordtokens = word_tokenize(sample_text)
 #data_senttokens = sent_tokenize(sample_text)
 
 word_ngrams = ngrams(data_wordtokens,6)
-sent_ngrams = ngrams(data_senttokens,5)
+#sent_ngrams = ngrams(data_senttokens,5)
 
 for data in word_ngrams:
     print(data)
